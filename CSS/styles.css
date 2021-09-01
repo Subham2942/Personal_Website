@@ -4,6 +4,7 @@ body
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #40514E;
+  background-color: #E8F6EF;
 }
 a
 {
@@ -92,10 +93,17 @@ hr
 {
   font-weight: normal;
 }
-.skill-row
+.skill-row1
 {
   width:50%;
-  margin: 100px auto 100px auto;
+  margin: 100px auto 100px 200px;
+  text-align: left;
+  
+}
+.skill-row2
+{
+  width:50%;
+  margin: 100px 200px 100px auto;
   text-align: left;
   
 }
@@ -130,9 +138,8 @@ hr
   font-size: 0.75rem;
 }
 
+
 /* <-----------BUTTON------------>*/ 
-
-
 .btn {
    background: #3D94F6;
    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
