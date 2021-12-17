@@ -6,6 +6,12 @@ body
   color: #40514E;
   background-color: #E8F6EF;
 }
+.profile img{
+  border-width: 2px;
+  border-style: solid;
+  border-radius:50%;
+  border-color:grey;
+}
 a
 {
   color:blue;
